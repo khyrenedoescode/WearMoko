@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "606399098877",
+    "firebase_url": "https://capstone-7accc-default-rtdb.firebaseio.com",
+    "project_id": "capstone-7accc",
+    "storage_bucket": "capstone-7accc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606399098877:android:e9b6d7df3af67cb597b394",
+        "android_client_info": {
+          "package_name": "com.example.stealthwearapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADcOR7LDyLqIhMrMCMiCSJKqimTcbiKgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606399098877:android:01ac57ff9252ce1897b394",
+        "android_client_info": {
+          "package_name": "com.example.wearmoko"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADcOR7LDyLqIhMrMCMiCSJKqimTcbiKgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606399098877:android:49a850a9872b632c97b394",
+        "android_client_info": {
+          "package_name": "com.example.wearmokoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADcOR7LDyLqIhMrMCMiCSJKqimTcbiKgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

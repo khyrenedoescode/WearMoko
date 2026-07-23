@@ -1,0 +1,137 @@
+name: wearmokoapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_database: 11.3.6
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  cloud_firestore: 5.6.6
+  firebase_messaging: ^15.2.6
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  http: ^1.2.2
+  permission_handler: ^11.3.1
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^5.2.1
+  file_picker: ^10.0.0
+  video_player: ^2.9.2
+  flutter_contacts: ^1.1.9+2
+  file_selector_windows: ^0.9.3+4
+  location: ^7.0.1
+  geocoding: ^3.0.0
+  url_launcher: ^6.3.1
+  intl: ^0.20.2
+  flutter_screenutil: ^5.9.3
+  flutter_local_notifications: ^19.2.1
+  shared_preferences: ^2.5.3
+  visibility_detector: ^0.4.0+2
+  google_fonts: ^6.3.0
+  geodesy: ^0.10.2
+  crypto: ^3.0.7
+  open_location_code: ^1.0.1
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Keeping the flutter_lints version from the original setup
+  flutter_launcher_icons: 0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/backgroundsplash.png
+    - assets/world.png
+    - assets/gpsprofile.png
+    - assets/mappin.png
+    - assets/user.png
+    - assets/dashboard.png
+    - assets/location.png
+    - assets/alert.png
+    - assets/user2.png
+    - assets/usermonitor.png
+    - assets/deviceuser.png
+    - assets/userdash.png
+    - assets/home.png
+    - assets/message.png
+    - assets/home2.png
+    - assets/notif.png
+    - assets/map2.png
+    - assets/contacts.png
+    - assets/phone.png
+    - assets/settings.png
+    - assets/locationbar.png
+    - assets/location2.png
+    - assets/message2.png
+    - assets/location3.png
+    - assets/back.png
+    - assets/send.png
+    - assets/user3.png
+    - assets/profcam.png
+    - assets/user4.png
+    - assets/pass.png
+    - assets/notif2.png
+    - assets/locsharing.png
+    - assets/groupcircle.png
+    - assets/privacy.png
+    - assets/about.png
+    - assets/logout.png
+    - assets/nextbutton.png
+    - assets/changeview.png
+    - assets/necklace.png
+    - assets/alert2.png
+    - assets/alert3.png
+    - assets/pushalert.png
+    - assets/pin.png
+    - .env
+
+  fonts:
+    - family: Righteous
+      fonts:
+        - asset: assets/fonts/Righteous-Regular.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/RobotoMono-Regular.ttf
+        - asset: assets/fonts/RobotoMono-Bold.ttf
+
+    - family: Roboto Slab
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/RobotoSlab-Bold.ttf
+
+    - family: RobotoSerif
+      fonts:
+        - asset: assets/fonts/RobotoSerif.ttf
+        - asset: assets/fonts/RobotoSerif-Italic.ttf
+
+    - family: Roboto Flex
+      fonts:
+        - asset: assets/fonts/RobotoFlex.ttf
+
+    - family: Archivo Narrow
+      fonts:
+        - asset: assets/fonts/ArchivoNarrow-Italic.ttf
+        - asset: assets/fonts/ArchivoNarrowRegular.ttf
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/icon.png"
+  min_sdk_android: 17
+  remove_alpha_ios: true

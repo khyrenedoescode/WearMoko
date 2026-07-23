@@ -1,0 +1,51 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "com.google.gms.google-services"      // For Firebase
+    id "dev.flutter.flutter-gradle-plugin"   // Must be last
+}
+
+android {
+    namespace = "com.example.wearmokoapp"
+    compileSdk = 35
+    ndkVersion = flutter.ndkVersion
+
+    defaultConfig {
+        applicationId = "com.example.wearmokoapp"
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'my-key-alias'
+            keyPassword '1234565'
+            storeFile file('C:/capstone/my-release-key.keystore')
+            storePassword '1234565'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+            // proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+flutter {
+    source = "../.."
+}
